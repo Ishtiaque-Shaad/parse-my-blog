@@ -74,7 +74,7 @@ body {
 
 .post-list {
     width: 600px;
-    font-family: "san's-serif";
+    font-family: "Helvetica Neue";
     list-style: none;
     height:auto;
 }
@@ -85,13 +85,19 @@ body {
     width: auto;
     border-width: 1px 1px 1px 1px;
     border-radius: 5px;
+    border-right: 1px #399 dotted;
+    border-left: 1px #399 dotted;
+    border-top: 1px #399 dotted;
+    padding:10px 10px 10px 10px;
 }
 
 .show-user {
     background-color: #fff;
     text-align: center;
     font-size: 5px;
-    font-family: "times new roman";
+    font-family: "Helvetica Neue";
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .show-user > button {
